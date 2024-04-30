@@ -1,4 +1,4 @@
-#container {
+#nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,4 +30,17 @@
   color: black;
   font-weight: 600;
   margin-bottom: 20px;
+}
+
+#hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+#hero-img {
+  height: 800px;
 }
