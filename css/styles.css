@@ -1,0 +1,33 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+#navlogo {
+  height: 80px;
+}
+
+#navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#navlinks nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+#navlinks nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
