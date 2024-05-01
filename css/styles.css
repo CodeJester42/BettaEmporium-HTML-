@@ -38,7 +38,7 @@
 
 #hero-container {
   display: flex;
-  justify-content: cspace-between;
+  justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
@@ -85,4 +85,40 @@
 
 #hero-button:hover {
   font-weight: bold;
+}
+
+#category-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+#category-1 {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border: #000000 1px solid;
+  border-radius: 15px;
+}
+
+#category-2 {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border: #000000 1px solid;
+  border-radius: 15px;
+}
+
+#category-3 {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border: #000000 1px solid;
+  border-radius: 15px;
 }
