@@ -22,6 +22,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
 #navlinks nav ul {
   list-style-type: none;
   padding: 0;
@@ -90,16 +91,6 @@
 #category-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 20px;
-}
-
-#category-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px 20px;
@@ -107,7 +98,7 @@
 
 #category-1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 300px;
   height: 300px;
   border: #000000 1px solid;
@@ -116,7 +107,7 @@
 
 #category-2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 300px;
   height: 300px;
   border: #000000 1px solid;
@@ -125,7 +116,7 @@
 
 #category-3 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 300px;
   height: 300px;
   border: #000000 1px solid;
@@ -133,13 +124,31 @@
 }
 
 #male {
-  height: 300px;
+  height: 200px;
+}
+
+#cat-1-text {
+  position: relative;
+  top: 175px;
+  left: -150px;
 }
 
 #female {
-  height: 300px;
+  height: 200px;
+}
+
+#cat-2-text {
+  position: relative;
+  top: 175px;
+  left: -150px;
 }
 
 #live {
-  height: 300px;
+  height: 200px;
+}
+
+#cat-3-text {
+  position: relative;
+  top: 175px;
+  left: -150px;
 }
