@@ -38,7 +38,7 @@
 
 #hero-container {
   display: flex;
-  justify-content: cspace-between;
+  justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
@@ -58,7 +58,7 @@
 
 #hero-img {
   display: flex;
-  justify-content: c;
+  justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
@@ -85,4 +85,25 @@
 
 #hero-button:hover {
   font-weight: bold;
+}
+
+#category-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+#male {
+  height: 300px;
+}
+
+#female {
+  height: 300px;
+}
+
+#live {
+  height: 300px;
 }
