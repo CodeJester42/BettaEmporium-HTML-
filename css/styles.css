@@ -103,6 +103,7 @@
   height: 300px;
   border: #000000 1px solid;
   border-radius: 15px;
+  margin: 5px 5px 5px 5px;
 }
 
 #category-2 {
@@ -112,6 +113,7 @@
   height: 300px;
   border: #000000 1px solid;
   border-radius: 15px;
+  margin: 5px 5px 5px 5px;
 }
 
 #category-3 {
@@ -121,9 +123,12 @@
   height: 300px;
   border: #000000 1px solid;
   border-radius: 15px;
+  margin: 5px 5px 5px 5px;
 }
 
 #male {
+  position: relative;
+  left: 30px;
   height: 200px;
 }
 
@@ -144,11 +149,36 @@
 }
 
 #live {
-  height: 200px;
+  position: relative;
+  left: 55px;
+  top: 20px;
+  height: 175px;
 }
 
 #cat-3-text {
   position: relative;
   top: 185px;
   left: -110px;
+}
+
+#cat-text {
+  font-weight: bold;
+}
+
+#service-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  height: 200px;
+}
+
+#main-service {
+  font-weight: bold;
+}
+
+#second-service {
+  color: gray;
+  margin-top: -10px;
 }
