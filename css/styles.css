@@ -255,7 +255,6 @@
 #brands {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 10px 20px;
 }
@@ -263,36 +262,46 @@
 #brand-1 {
   display: flex;
   justify-content: space-between;
+  width: 150px;
 }
 
 #brand-2 {
   display: flex;
   justify-content: space-between;
+  width: 150px;
 }
 
 #brand-3 {
   display: flex;
   justify-content: space-between;
+  width: 150px;
 }
 
 #brand-4 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  position: relative;
+  left: -20px;
 }
 
 #brand-5 {
   display: flex;
   justify-content: space-between;
+  width: 150px;
 }
 
 #brand-6 {
   display: flex;
   justify-content: space-between;
+  width: 150px;
 }
 
 #brand-7 {
   display: flex;
   justify-content: space-between;
+  width: 150px;
 }
 
 #footer-container {
