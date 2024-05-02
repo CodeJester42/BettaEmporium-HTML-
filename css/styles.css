@@ -166,12 +166,18 @@
 }
 
 #service-container {
-  display: flex;
-  justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px 20px;
   height: 200px;
+  border: #000000 1px solid;
+}
+
+#svc {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 60px;
 }
 
 #main-service {
