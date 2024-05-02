@@ -130,7 +130,7 @@
 #cat-1-text {
   position: relative;
   top: 175px;
-  left: -150px;
+  left: -155px;
 }
 
 #female {
@@ -140,7 +140,7 @@
 #cat-2-text {
   position: relative;
   top: 175px;
-  left: -150px;
+  left: -175px;
 }
 
 #live {
@@ -149,6 +149,6 @@
 
 #cat-3-text {
   position: relative;
-  top: 175px;
-  left: -150px;
+  top: 185px;
+  left: -110px;
 }
