@@ -191,11 +191,119 @@
   margin-top: -10px;
 }
 
-#blog {
+#blog-container {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  height: 650px;
+}
+
+#blog-header {
+  position: relative;
+  top: -200px;
+  left: 480px;
+}
+
+#blog-subtitle {
+  color: gray;
+  position: relative;
+  left: 35px;
+  top: -15px;
+}
+
+#blogs {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 10px 20px;
+  position: relative;
+  top: 320px;
+}
+
+#blog-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+}
+
+#blog-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+}
+
+#blog-3 {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+}
+
+#brands-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 216, 216);
+  height: 150px;
+}
+
+#brands {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+#brand-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand-5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand-6 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand-7 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
 }
