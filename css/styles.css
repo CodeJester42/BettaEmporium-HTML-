@@ -191,9 +191,10 @@
   margin-top: -10px;
 }
 
-#blog-container {
+#blog {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px 20px;
