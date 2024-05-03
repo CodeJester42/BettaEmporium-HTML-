@@ -16,7 +16,7 @@ function searchProducts() {
             return response.json();
         })
         .then(data => {
-            window.location.href = `/search-results.html?query=${encodeURIComponent(userInput)}`;
+            displaySearchResults(data);
         })
         .catch(error => {
             displayErrorMessage('Error fetching search results.');
