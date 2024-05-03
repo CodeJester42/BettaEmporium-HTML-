@@ -8,14 +8,44 @@ function searchProducts() {
 
     var searchUrl = "/search?query=" + encodeURIComponent(userInput);
 
-    console.log("Search URL: " + searchUrl);
-
     fetch(searchUrl)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
-            console.log("Search Results:", data.results);
+            window.location.href = `/search-results.html?query=${encodeURIComponent(userInput)}`;
         })
         .catch(error => {
-            console.error('Error:', error);
-        })
-}
+            displayErrorMessage('Error fetching search results.');
+        });
+
+};
+
+function displaySearchResults(data) {
+    var resultsContainer = document.getElementById("searchResults");
+    resultsContainer.innerHTML = "";
+
+    if (data.results && data.results.length > 0) {
+        var resultList = document.createElement("ul");
+        data.results.forEach(results => {
+            var listItem = document.createElement("li");
+            listItem.textContent = result;
+            resultList.appendChild(listItem);
+        });
+        resultsContainer.appendChild(resultList);
+    } else {
+        displayErrorMessage("No results found.");
+    }
+};
+
+function displayErrorMessage(message) {
+    var resultsContainer = document.getElementById("searchResults");
+    resultsContainer.innerHTML = `<p>${message}</p>`;
+};
+
+document.getElementById("navsearch").querySelector("button").addEventListener("click", function () {
+    searchProducts();
+});

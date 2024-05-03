@@ -12,7 +12,11 @@ app.get('/', (req, res) => {
 app.get('/search', (req, res) => {
     const query = req.query.query;
 
-    res.json({ results: ['Product 1', 'Product 2', 'Product 3'] });
+    if (query === 'product') {
+        res.json({ results: ['Product 1', 'Product 2', 'Product 3'] });
+    } else {
+        res.status(400).json({ error: 'No results found' });
+    }
 });
 
 app.listen(port, () => {
