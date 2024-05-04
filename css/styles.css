@@ -2,6 +2,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/**
+ * Navigation Section
+ */
+
 #nav-container {
   display: flex;
   justify-content: space-between;
@@ -36,6 +40,30 @@
   font-weight: 600;
   margin-bottom: 20px;
 }
+
+#search {
+  position: relative;
+  top: 2px;
+  left: 175px;
+  border: none;
+  font-family: Arial;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#search:hover {
+  text-decoration: none;
+}
+
+#search-button {
+  height: 15px;
+}
+
+/**
+ * Hero Section
+ */
 
 #hero-container {
   display: flex;
@@ -87,6 +115,10 @@
 #hero-button:hover {
   font-weight: bold;
 }
+
+/**
+ * Category Section
+ */
 
 #category-container {
   display: flex;
@@ -168,6 +200,10 @@
   font-weight: bold;
 }
 
+/**
+ * Services Section
+ */
+
 #service-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -190,6 +226,10 @@
   color: gray;
   margin-top: -10px;
 }
+
+/**
+ * Blog Section
+ */
 
 #blog-container {
   display: flex;
@@ -243,6 +283,10 @@
   width: 300px;
   height: 300px;
 }
+
+/**
+ * Brands Section
+ */
 
 #brands-container {
   display: flex;
@@ -310,9 +354,33 @@
   padding: 10px 20px;
 }
 
+/**
+ * Footer Section
+ */
+
 #footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 400px;
+}
+
+/**
+ * Product Details Page
+ */
+
+#product-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: centers;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+#extended-images {
+  display: flex;
+  position: relative;
+  top: 400px;
+  left: -200px;
 }

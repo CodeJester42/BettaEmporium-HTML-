@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Login Page</title>
+    <title>Product Details Page</title>
 </head>
 <body>
     <div id="nav-container">
@@ -26,8 +26,9 @@
             
         </div>
         <div id="navsearch">
+            <button id="search"><img id="search-button" src="icons/magnifying-glass.png"></button>
             <input type="text" placeholder="Search">
-            <button>Search</button>
+            
         </div>
     </div>
 
@@ -39,29 +40,36 @@
         <div id="product-images">
             <img src="images/betta_light.jpg" alt="betta" height="250px">
         </div>
-        <div>
+        <div id="extended-images">
             <img src="images/betta_light.jpg" alt="betta" height="80px">
             <img src="images/betta_light.jpg" alt="betta" height="80px">
             <img src="images/betta_light.jpg" alt="betta" height="80px">
         </div>
         <div id="product-info">
             <div>
-                <div>
-                    <h1>Product Name Here</h1>
-                </div>
-                <div>
-                    <p>$999.99</p>
-                </div>
-                <div id="rating">
-                    <span id="rating">0</span>/5
-                </div>
-                <div id="stars">
-                    <span class="star" data-value="1">★</span>
-                    <span class="star" data-value="2">★</span>
-                    <span class="star" data-value="3">★</span>
-                    <span class="star" data-value="4">★</span>
-                    <span class="star" data-value="5">★</span>
-                </div>
+                <h1>[Product Name]</h1>
+            </div>
+            <div>
+                <p>[$999.99]</p>
+            </div>
+            <div id="rating">
+                <span id="rating">0</span>/5
+            </div>
+            <div id="stars">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <div>
+                <p>Product ID: [Product ID]</p>
+            </div>
+            <div>
+                <p>[Product Description Here]</p>
+            </div>
+            <div>
+                <button>Add to Cart</button>
             </div>
         </div>
     </div>
