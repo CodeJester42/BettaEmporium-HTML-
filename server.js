@@ -2,6 +2,17 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const port = 3009;
+const client = require('./mongodb');
+
+async function connectToDatabase() {
+    try {
+        await client.connect();
+        console.log('Connected to the MongoDB cluster');
+    } catch (error) {
+        console.error('Error connecting to the database:', error);
+    }
+}
+connectoToDatabase();
 
 app.use(express.static(path.join(__dirname)));
 
