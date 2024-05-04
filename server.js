@@ -12,7 +12,7 @@ async function connectToDatabase() {
         console.error('Error connecting to the database:', error);
     }
 }
-connectoToDatabase();
+connectToDatabase();
 
 app.use(express.static(path.join(__dirname)));
 
