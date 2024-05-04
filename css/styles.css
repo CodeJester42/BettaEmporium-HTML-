@@ -408,3 +408,32 @@
   position: relative;
   left: -200px;
 }
+
+#similar-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  position: relative;
+  top: 150px;
+  height: 300px;
+}
+
+#similar-header {
+  position: relative;
+  top: -200px;
+  left: 520px;
+}
+
+#similar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  position: relative;
+  top: -50px;
+  left: -80px;
+}
