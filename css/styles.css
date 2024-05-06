@@ -425,6 +425,7 @@
   position: relative;
   top: -200px;
   left: 520px;
+  width: 300px;
 }
 
 #similar-items {
@@ -434,6 +435,11 @@
   margin: 0 auto;
   padding: 10px 20px;
   position: relative;
-  top: -50px;
+  top: -40px;
   left: -80px;
+  overflow: auto;
+}
+
+#similar-items img {
+  padding: 20px;
 }
